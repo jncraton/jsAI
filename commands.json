@@ -1,0 +1,458 @@
+{
+    "goto": {
+        "params": ["address"],
+        "op": 0
+    },
+    "notowns_jump": {
+        "params": ["unit", "address"],
+        "op": 1
+    },
+    "wait": {
+        "params": ["word"],
+        "op": 2
+    },
+    "start_town": {
+        "params": [],
+        "op": 3
+    },
+    "start_areatown": {
+        "params": [],
+        "op": 4
+    },
+    "expand": {
+        "params": ["byte", "address"],
+        "op": 5
+    },
+    "build": {
+        "params": ["byte", "building", "priority"],
+        "op": 6
+    },
+    "upgrade": {
+        "params": ["byte", "upgrade", "priority"],
+        "op": 7
+    },
+    "tech": {
+        "params": ["technology", "priority"],
+        "op": 8
+    },
+    "wait_build": {
+        "params": ["byte", "building"],
+        "op": 9
+    },
+    "wait_buildstart": {
+        "params": ["byte", "unit"],
+        "op": 10
+    },
+    "attack_clear": {
+        "params": [],
+        "op": 11
+    },
+    "attack_add": {
+        "params": ["byte", "military"],
+        "op": 12
+    },
+    "attack_prepare": {
+        "params": [],
+        "op": 13
+    },
+    "attack_do": {
+        "params": [],
+        "op": 14
+    },
+    "wait_secure": {
+        "params": [],
+        "op": 15
+    },
+    "capt_expand": {
+        "params": [],
+        "op": 16
+    },
+    "build_bunkers": {
+        "params": [],
+        "op": 17
+    },
+    "wait_bunkers": {
+        "params": [],
+        "op": 18
+    },
+    "defensebuild_gg": {
+        "params": ["byte", "ggmilitary"],
+        "op": 19
+    },
+    "defensebuild_ag": {
+        "params": ["byte", "agmilitary"],
+        "op": 20
+    },
+    "defensebuild_ga": {
+        "params": ["byte", "gamilitary"],
+        "op": 21
+    },
+    "defensebuild_aa": {
+        "params": ["byte", "aamilitary"],
+        "op": 22
+    },
+    "defenseuse_gg": {
+        "params": ["byte", "ggmilitary"],
+        "op": 23
+    },
+    "defenseuse_ag": {
+        "params": ["byte", "agmilitary"],
+        "op": 24
+    },
+    "defenseuse_ga": {
+        "params": ["byte", "gamilitary"],
+        "op": 25
+    },
+    "defenseuse_aa": {
+        "params": ["byte", "aamilitary"],
+        "op": 26
+    },
+    "defenseclear_gg": {
+        "params": [],
+        "op": 27
+    },
+    "defenseclear_ag": {
+        "params": [],
+        "op": 28
+    },
+    "defenseclear_ga": {
+        "params": [],
+        "op": 29
+    },
+    "defenseclear_aa": {
+        "params": [],
+        "op": 30
+    },
+    "send_suicide": {
+        "params": ["byte"],
+        "op": 31
+    },
+    "player_enemy": {
+        "params": [],
+        "op": 32
+    },
+    "player_ally": {
+        "params": [],
+        "op": 33
+    },
+    "default_min": {
+        "params": ["byte"],
+        "op": 34
+    },
+    "defaultbuild_off": {
+        "params": [],
+        "op": 35
+    },
+    "stop": {
+        "params": [],
+        "op": 36
+    },
+    "switch_rescue": {
+        "params": [],
+        "op": 37
+    },
+    "move_dt": {
+        "params": [],
+        "op": 38
+    },
+    "debug": {
+        "params": ["address", "string"],
+        "op": 39
+    },
+    "fatal_error": {
+        "params": [],
+        "op": 40
+    },
+    "enter_bunker": {
+        "params": [],
+        "op": 41
+    },
+    "value_area": {
+        "params": [],
+        "op": 42
+    },
+    "transports_off": {
+        "params": [],
+        "op": 43
+    },
+    "check_transports": {
+        "params": [],
+        "op": 44
+    },
+    "nuke_rate": {
+        "params": ["byte"],
+        "op": 45
+    },
+    "max_force": {
+        "params": ["word"],
+        "op": 46
+    },
+    "clear_combatdata": {
+        "params": [],
+        "op": 47
+    },
+    "random_jump": {
+        "params": ["byte", "address"],
+        "op": 48
+    },
+    "time_jump": {
+        "params": ["byte", "address"],
+        "op": 49
+    },
+    "farms_notiming": {
+        "params": [],
+        "op": 50
+    },
+    "farms_timing": {
+        "params": [],
+        "op": 51
+    },
+    "build_turrets": {
+        "params": [],
+        "op": 52
+    },
+    "wait_turrets": {
+        "params": [],
+        "op": 53
+    },
+    "default_build": {
+        "params": [],
+        "op": 54
+    },
+    "harass_factor": {
+        "params": [],
+        "op": 55
+    },
+    "start_campaign": {
+        "params": [],
+        "op": 56
+    },
+    "race_jump": {
+        "params": ["address", "address", "address"],
+        "op": 57
+    },
+    "region_size": {
+        "params": ["byte", "address"],
+        "op": 58
+    },
+    "get_oldpeons": {
+        "params": ["byte"],
+        "op": 59
+    },
+    "groundmap_jump": {
+        "params": ["address"],
+        "op": 60
+    },
+    "place_guard": {
+        "params": ["unit", "byte"],
+        "op": 61
+    },
+    "wait_force": {
+        "params": ["byte", "military"],
+        "op": 62
+    },
+    "guard_resources": {
+        "params": ["military"],
+        "op": 63
+    },
+    "call": {
+        "params": ["address"],
+        "op": 64
+    },
+    "return": {
+        "params": [],
+        "op": 65
+    },
+    "eval_harass": {
+        "params": [],
+        "op": 66
+    },
+    "creep": {
+        "params": ["byte"],
+        "op": 67
+    },
+    "panic": {
+        "params": ["address"],
+        "op": 68
+    },
+    "player_need": {
+        "params": ["byte", "building"],
+        "op": 69
+    },
+    "do_morph": {
+        "params": [],
+        "op": 70
+    },
+    "wait_upgrades": {
+        "params": [],
+        "op": 71
+    },
+    "multirun": {
+        "params": ["address"],
+        "op": 72
+    },
+    "rush": {
+        "params": ["byte", "address"],
+        "op": 73
+    },
+    "scout_with": {
+        "params": ["military"],
+        "op": 74
+    },
+    "define_max": {
+        "params": ["byte", "unit"],
+        "op": 75
+    },
+    "train": {
+        "params": ["byte", "military"],
+        "op": 76
+    },
+    "target_expansion": {
+        "params": [],
+        "op": 77
+    },
+    "wait_train": {
+        "params": ["byte", "military"],
+        "op": 78
+    },
+    "set_attacks": {
+        "params": ["byte"],
+        "op": 79
+    },
+    "set_gencmd": {
+        "params": [],
+        "op": 80
+    },
+    "make_patrol": {
+        "params": [],
+        "op": 81
+    },
+    "give_money": {
+        "params": [],
+        "op": 82
+    },
+    "prep_down": {
+        "params": [],
+        "op": 83
+    },
+    "resources_jump": {
+        "params": ["word", "word", "address"],
+        "op": 84
+    },
+    "enter_transport": {
+        "params": [],
+        "op": 85
+    },
+    "exit_transport": {
+        "params": [],
+        "op": 86
+    },
+    "sharedvision_on": {
+        "params": ["byte"],
+        "op": 87
+    },
+    "sharedvision_off": {
+        "params": ["byte"],
+        "op": 88
+    },
+    "nuke_location": {
+        "params": [],
+        "op": 89
+    },
+    "harass_location": {
+        "params": [],
+        "op": 90
+    },
+    "implode": {
+        "params": [],
+        "op": 91
+    },
+    "guard_all": {
+        "params": [],
+        "op": 92
+    },
+    "enemyowns_jump": {
+        "params": ["unit", "address"],
+        "op": 93
+    },
+    "enemyresources_jump": {
+        "params": ["word", "word", "address"],
+        "op": 94
+    },
+    "if_dif": {
+        "params": [],
+        "op": 95
+    },
+    "easy_attack": {
+        "params": [],
+        "op": 96
+    },
+    "kill_thread": {
+        "params": [],
+        "op": 97
+    },
+    "killable": {
+        "params": [],
+        "op": 98
+    },
+    "wait_finishattack": {
+        "params": [],
+        "op": 99
+    },
+    "quick_attack": {
+        "params": [],
+        "op": 100
+    },
+    "junkyard_dog": {
+        "params": [],
+        "op": 101
+    },
+    "fake_nuke": {
+        "params": [],
+        "op": 102
+    },
+    "disruption_web": {
+        "params": [],
+        "op": 103
+    },
+    "recall_location": {
+        "params": [],
+        "op": 104
+    },
+    "set_randomseed": {
+        "params": ["word", "word"],
+        "op": 105
+    },
+    "if_owned": {
+        "params": ["unit", "address"],
+        "op": 106
+    },
+    "create_nuke": {
+        "params": [],
+        "op": 107
+    },
+    "create_unit": {
+        "params": ["unit", "word", "word"],
+        "op": 108
+    },
+    "nuke_pos": {
+        "params": ["word", "word"],
+        "op": 109
+    },
+    "help_iftrouble": {
+        "params": [],
+        "op": 110
+    },
+    "allies_watch": {
+        "params": ["byte", "address"],
+        "op": 111
+    },
+    "try_townpoint": {
+        "params": ["byte", "address"],
+        "op": 112
+    },
+    "if_towns": {
+        "params": [],
+        "op": 113
+    }
+}
