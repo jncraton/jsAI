@@ -28,10 +28,24 @@ with (ai) {
             build_start(i, rax);
         }
     });
-    
+
+    pick([
+        function() {
+            train(1, marine);
+            send_suicide(0);
+        },
+        function() {
+            train(4, marine);
+            send_suicide(0);
+        },
+        function() {
+            train(8, marine);
+            send_suicide(0);
+        }
+    ]);
+            
     loop(function () {
-        train(24, marine);
-        expand(99, simpleExpo);
+        train(8, marine);
         send_suicide(0);
     });
     
