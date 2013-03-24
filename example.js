@@ -15,21 +15,7 @@ with (ai) {
         stop();
     };
     
-    var builds = {
-        'bbs': function () {
-            bo.parse([
-                [8, rax],
-                [8, rax],
-                [9, depot],
-            ]);
-        },
-        '14cc': function () {
-            bo.parse([
-                [9, depot],
-                [14, cc]
-            ]);
-        },
-    }
+    var builds = bo.parseFromFile('terranBuilds.md');
     
     pick(builds);
     
