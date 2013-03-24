@@ -24,10 +24,10 @@ with (ai) {
             ]);
         },
         '14cc': function () {
-            build_start(9, scv);
-            build_start(1, depot);
-            build_start(14, scv);
-            expand(1, simpleExpo);
+            bo.parse([
+                [9, depot],
+                [14, cc]
+            ]);
         },
     }
     
