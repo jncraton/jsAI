@@ -1,6 +1,9 @@
 var ai = require('./lib/ai');
+var bo = require('./lib/bo');
 
 with (ai) {
+    header('terran');
+    
     // Functions provide a higher order replacement for blocks
     var simpleExpo = function() {
         start_town();
@@ -14,12 +17,11 @@ with (ai) {
     
     var builds = {
         'bbs': function () {
-            build_start(8, scv);
-            build_start(1, rax);
-            build_start(2, rax);
-            build_start(9, scv);
-            build_start(1, depot);
-            build_start(11, scv);
+            bo.parse([
+                [8, rax],
+                [8, rax],
+                [9, depot],
+            ]);
         },
         '14cc': function () {
             build_start(9, scv);
@@ -28,8 +30,6 @@ with (ai) {
             expand(1, simpleExpo);
         },
     }
-    
-    header('terran');
     
     pick(builds);
     
