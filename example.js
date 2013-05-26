@@ -1,5 +1,6 @@
 var ai = require('./lib/ai');
 var bo = require('./lib/bo');
+var midgame = require('./lib/midgame');
 
 with (ai) {
     header('terran');
@@ -18,6 +19,12 @@ with (ai) {
     var builds = bo.parseFromFile('terranBuilds.md');
 
     pick(builds);
+
+    var mid = midgame.parseFromFile('terranMidgame.md');
+
+    console.log(mid)
+
+    pick(mid);
 
     pick({
         bio: function () {
