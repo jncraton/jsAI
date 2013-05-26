@@ -376,7 +376,8 @@
         "U-238 Shells"
     ],
     "Ion Thrusters": [
-        "Ion Thrusters"
+        "Ion Thrusters",
+        "Vulture Speed"
     ],
     "Titan Reactor": [
         "Titan Reactor"
@@ -475,31 +476,38 @@
         "Charon Booster"
     ],
     "Stim Packs": [
-        "Stim Packs"
+        "Stim Packs",
+        "Stim"
     ],
     "Lockdown": [
         "Lockdown"
     ],
     "EMP Shockwave": [
-        "EMP Shockwave"
+        "EMP Shockwave",
+        "EMP"
     ],
     "Spider Mines": [
-        "Spider Mines"
+        "Spider Mines",
+        "Mines"
     ],
     "Scanner Sweep": [
         "Scanner Sweep"
     ],
     "Tank Siege Mode": [
-        "Tank Siege Mode"
+        "Tank Siege Mode",
+        "Siege",
+        "Siege Mode"
     ],
     "Defensive Matrix": [
-        "Defensive Matrix"
+        "Defensive Matrix",
+        "DMatrix"
     ],
     "Irradiate": [
         "Irradiate"
     ],
     "Yamato Gun": [
-        "Yamato Gun"
+        "Yamato Gun",
+        "Yamato"
     ],
     "Cloaking Field": [
         "Cloaking Field"
@@ -508,13 +516,15 @@
         "Personnel Cloaking"
     ],
     "Burrowing": [
-        "Burrowing"
+        "Burrowing",
+        "Burrow"
     ],
     "Infestation": [
         "Infestation"
     ],
     "Spawn Broodlings": [
-        "Spawn Broodlings"
+        "Spawn Broodlings",
+        "Broodlings"
     ],
     "Dark Swarm": [
         "Dark Swarm"
@@ -532,7 +542,8 @@
         "Parasite"
     ],
     "Psionic Storm": [
-        "Psionic Storm"
+        "Psionic Storm",
+        "Psi storm"
     ],
     "Hallucination": [
         "Hallucination"
@@ -541,7 +552,8 @@
         "Recall"
     ],
     "Stasis Field": [
-        "Stasis Field"
+        "Stasis Field",
+        "Statis"
     ],
     "Archon Warp": [
         "Archon Warp"
@@ -550,10 +562,8 @@
         "Restoration"
     ],
     "Disruption Web": [
-        "Disruption Web"
-    ],
-    "Unknown Tech": [
-        "Unknown Tech"
+        "Disruption Web",
+        "DWeb"
     ],
     "Mind Control": [
         "Mind Control"
