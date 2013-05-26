@@ -22,8 +22,6 @@ with (ai) {
 
     var mid = midgame.parseFromFile('terranMidgame.md');
 
-    console.log(mid)
-
     pick(mid);
 
     pick({
