@@ -5,13 +5,12 @@ var midgame = require('./lib/midgame');
 with (ai) {
     header('terran');
 
-    var builds = bo.parseFromFile('terranBuilds.md');
+    pick(bo.parseFromFile('terranBuilds.md'));
+    pick(midgame.parseFromFile('terranMidgame.md'));
 
-    pick(builds);
+    //header('zerg');
 
-    var mid = midgame.parseFromFile('terranMidgame.md');
-
-    pick(mid);
+    //pick(bo.parseFromFile('zergBuilds.md'));
 
     flush();
 }
