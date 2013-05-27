@@ -1,8 +1,8 @@
 # 5 Factory (TvT, TvZ, TvP)
 
 ## Unit Composition
-1 Siege Tank
-1 Vulture
+5 Siege Tank
+7 Vulture
 
 ## Buildings
 2 Factory
