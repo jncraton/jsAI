@@ -2,6 +2,8 @@
 
 * type: greedy
 
+## Build
+
 - 9 Depot
 - 14 CC
 - 15 Refinery
@@ -15,6 +17,8 @@
 # bbs (TvT, TvZ, TvP)
 
 * type: rush
+
+## Build
 
 - 9 Rax
 - 9 Rax
