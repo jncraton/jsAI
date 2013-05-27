@@ -24,24 +24,5 @@ with (ai) {
 
     pick(mid);
 
-    pick({
-        bio: function () {
-            for (var i = 1; i <= 8; i += 1) {
-                build_start(i, rax);
-            }
-
-            loop(function() {
-                train(24, marine);
-
-                attack_clear();
-                attack_add(24, marine);
-                attack_prepare();
-                wait(150);
-                attack_do();
-                attack_clear();
-            });
-        }
-    });
-
     flush();
 }
