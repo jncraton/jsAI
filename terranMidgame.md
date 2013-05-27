@@ -13,3 +13,15 @@
 5 Machine Shop
 2 Armory
 1 Vulture Speed
+
+# 6 Rax (TvT, TvZ, TvP)
+
+## Unit Composition
+18 Marine
+6 Medic
+
+## Buildings
+2 Rax
+1 Academy
+6 Rax
+1 Marine Range
