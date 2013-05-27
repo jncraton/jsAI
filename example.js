@@ -8,7 +8,7 @@ with (ai) {
     pick(bo.parseFromFile('terranBuilds.md'));
     pick(midgame.parseFromFile('terranMidgame.md'));
 
-    //header('zerg');
+    header('zerg');
 
     //pick(bo.parseFromFile('zergBuilds.md'));
 
