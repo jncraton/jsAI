@@ -266,10 +266,10 @@
     },
     "Zerg Zergling": {
         "id": 37,
-        "minerals": "25",
+        "minerals": "50",
         "gas": "0",
         "time": "28",
-        "supply": "0.5",
+        "supply": "1",
         "hp": "35",
         "shield": "0",
         "armor": "0",
