@@ -12,5 +12,9 @@ with (ai) {
 
     pick(bo.parseFromFile('zergBuilds.md'));
 
+    header('protoss');
+
+    pick(bo.parseFromFile('protossBuilds.md'));
+
     flush();
 }
