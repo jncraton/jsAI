@@ -479,8 +479,19 @@
         "range": "5",
         "cooldown": "8"
     },
-    "Protoss Dark Templar (Unit)": {
-        "id": 61
+    "Protoss Dark Templar": {
+        "id": 61,
+        "minerals": "125",
+        "gas": "100",
+        "time": "50",
+        "supply": "2",
+        "hp": "80",
+        "shield": "40",
+        "armor": "1",
+        "ground": "40",
+        "air": "0",
+        "range": "1",
+        "cooldown": "30"
     },
     "Zerg Devourer": {
         "id": 62,
