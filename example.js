@@ -10,7 +10,7 @@ with (ai) {
 
     header('zerg');
 
-    //pick(bo.parseFromFile('zergBuilds.md'));
+    pick(bo.parseFromFile('zergBuilds.md'));
 
     flush();
 }
