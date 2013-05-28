@@ -1,49 +1,19 @@
-# Cannon Zealot (TvT, TvZ, TvP)
+# 2 Gate DT (TvT, TvZ, TvP)
 
-* type: trash
+* type: tech
 
 ## Build
 
-- 8 Pylon
-- 12 Forge
-- 14 Gateway
-- 16 Gateway
-- 16 Pylon
-- 18 Cannon
-- 20 Zealot
-- 20 Pylon
-- 22 Zealot
-- 24 Zealot
-- 24 Pylon
-- 26 Zealot
-- 28 Zealot
-- 28 Pylon
-- 30 Zealot
-- 30 Cannon
-- 30 Cannon
-- 30 Cannon
-- 30 Cannon
-- 30 Cannon
-- 30 Cannon
-- 30 Cannon
-- 30 Cannon
-- 30 Cannon
-- 30 Cannon
-- 30 Cannon
-- 30 Cannon
-- 30 Cannon
-- 30 Cannon
-- 30 Cannon
-- 30 Cannon
-- 30 Cannon
-- 30 Cannon
-- 30 Cannon
-- 30 Cannon
-- 30 Cannon
-- 30 Cannon
-- 30 Cannon
-- 30 Cannon
-- 30 Cannon
-- 30 Cannon
-- 30 Cannon
-- 30 Cannon
+8 Pylon
+10 Gateway
+12 Assimilator
+13 Core
+13 Zealot
+17 Pylon
+19 Dragoon
+21 Citadel
+24 Archives
+24 Gateway
+24 Pylon
+24 DT
+26 DT
